@@ -82,8 +82,10 @@ button:hover {
 
 .article-title > h1 {
     font-size: 4em;
-    font-weight: bold;
+    font-weight: 800;
+    line-height: 1em;
     width: 6em;
+    padding: .4em 0 0 0;
 }
 
 .article-description > p {
@@ -156,6 +158,16 @@ footer {
     font-size: 2.5em;
     padding: 1.5em 0 .8em .6em;
     line-height: 0;
+    color: hsl(35, 77%, 62%);
+}
+
+h3 > a {
+    text-decoration: none;
+    font-weight: 800;
+    color: hsl(36, 100%, 99%);
+}
+
+h3 > a:hover {
     color: hsl(35, 77%, 62%);
 }
 
