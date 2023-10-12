@@ -182,7 +182,7 @@ h3 > a:hover {
     line-height: 1.8em;
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 60em) {
     .desktop {
         display: none;
     }
@@ -256,7 +256,7 @@ h3 > a:hover {
 
 }
 
-@media screen and (min-width: 376px) {
+@media screen and (min-width: 61em) {
     .mobile {
         display: none;
     }
